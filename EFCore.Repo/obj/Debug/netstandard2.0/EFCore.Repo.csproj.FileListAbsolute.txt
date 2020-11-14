@@ -1,0 +1,4 @@
+C:\projetos_C#\EFCore.WebAPI\EFCore.Repo\bin\Debug\netstandard2.0\EFCore.Repo.deps.json
+C:\projetos_C#\EFCore.WebAPI\EFCore.Repo\bin\Debug\netstandard2.0\EFCore.Repo.dll
+C:\projetos_C#\EFCore.WebAPI\EFCore.Repo\obj\Debug\netstandard2.0\EFCore.Repo.AssemblyInfoInputs.cache
+C:\projetos_C#\EFCore.WebAPI\EFCore.Repo\obj\Debug\netstandard2.0\EFCore.Repo.AssemblyInfo.cs
