@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LQ93DYW+eZQQywrWkJmfPkLdRb7biv7zOTiGxYU3pGv66TNQwEPCSKnJJbg1SFxgNoA7G/H2cRlt5C7ukwI95A==",
+  "dgSpecHash": "bEg1zfNSSlYDaljmeRlkheYBhYAkHk0skO1+SYSDn6YxmQgA8HHwAc+HtLu968awX7bSr1MbFb+qX+whxSyheg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
+  "projectFilePath": "C:\\projetos_C#\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\source\\repos\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj": {}
+    "C:\\projetos_C#\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\source\\repos\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj": {
+    "C:\\projetos_C#\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
+        "projectUniqueName": "C:\\projetos_C#\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
         "projectName": "EFCore.WebAPI",
-        "projectPath": "C:\\Users\\lucas\\source\\repos\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
+        "projectPath": "C:\\projetos_C#\\EFCore.WebAPI\\EFCore.WebAPI\\EFCore.WebAPI.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\source\\repos\\EFCore.WebAPI\\EFCore.WebAPI\\obj\\",
+        "outputPath": "C:\\projetos_C#\\EFCore.WebAPI\\EFCore.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
