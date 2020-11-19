@@ -107,6 +107,14 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -198,7 +206,7 @@
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.2, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
@@ -206,7 +214,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",

@@ -1,0 +1,8 @@
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\bin\Debug\netstandard2.0\EFCore.Dominio.deps.json
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\bin\Debug\netstandard2.0\EFCore.Dominio.dll
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\bin\Debug\netstandard2.0\EFCore.Dominio.pdb
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.AssemblyInfoInputs.cache
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.AssemblyInfo.cs
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.csproj.CoreCompileInputs.cache
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.dll
+C:\projetos_C#\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.pdb
