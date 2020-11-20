@@ -19,14 +19,18 @@ namespace EFCore.WebAPI.Controllers
         }
 
         // GET api/values
-        [HttpGet]
-        public ActionResult Get()
+        [HttpGet("filtro/{nome}")]
+        public ActionResult GetFiltro(string nome)
         {
             // LINQ Method
-            //var listHeroi = _context.Herois.ToList();
+            var listHeroi = _context.Herois.
+                            Where(h => h.Nome.Contains(nome))
+                            .ToList();
             
             // LINQ Query
-            var listHeroi = (from heroi in _context.Herois select heroi).ToList();
+           //var listHeroi = (from heroi in _context.Herois
+           //                 where heroi.Nome.Contains(nome)
+           //                  select heroi).ToList();
                 return Ok(listHeroi);      
         }
 
