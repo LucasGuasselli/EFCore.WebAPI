@@ -12,17 +12,22 @@ namespace EFCore.WebAPI.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        public readonly HeroiContext _contexto;
+        public readonly HeroiContext _context;
         public ValuesController(HeroiContext context)
         {
-            _contexto = context;
+            _context = context;
         }
 
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            // LINQ Method
+            //var listHeroi = _context.Herois.ToList();
+            
+            // LINQ Query
+            var listHeroi = (from heroi in _context.Herois select heroi).ToList();
+                return Ok(listHeroi);      
         }
 
         // GET api/values/5
@@ -31,9 +36,9 @@ namespace EFCore.WebAPI.Controllers
         {
             var heroi = new Heroi { Nome = nameHero };
             
-                _contexto.Herois.Add(heroi);
+                _context.Herois.Add(heroi);
                 // _contexto.Add(heroi);
-                _contexto.SaveChanges();
+                _context.SaveChanges();
             
             // retorna um status
             return Ok();
