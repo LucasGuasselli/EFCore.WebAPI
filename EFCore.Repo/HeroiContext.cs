@@ -9,11 +9,6 @@ namespace EFCore.Repo
 {
     public class HeroiContext: DbContext
     {
-        public HeroiContext()
-        {
-
-        }
-
         public HeroiContext(DbContextOptions<HeroiContext> options) : base(options) 
         { 
 
@@ -25,10 +20,7 @@ namespace EFCore.Repo
         public DbSet<HeroiBatalha> HeroisBatalhas { get; set; }
         public DbSet<IdentidadeSecreta> IdentidadesSecretas { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Password=123456;Persist Security Info=True;User ID=sa;Initial Catalog=HeroApp;Data Source=GUASSELLI-PC\\SQLEXPRESS");
-        }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
