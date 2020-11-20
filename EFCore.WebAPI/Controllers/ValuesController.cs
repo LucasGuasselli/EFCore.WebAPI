@@ -18,6 +18,7 @@ namespace EFCore.WebAPI.Controllers
             _context = context;
         }
 
+        
         // GET api/values
         [HttpGet("filtro/{nome}")]
         public ActionResult GetFiltro(string nome)
@@ -35,14 +36,17 @@ namespace EFCore.WebAPI.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{nameHero}")]
-        public ActionResult<string> Get(string nameHero)
+        [HttpGet("Atualizar/{nameHero}")]
+        public ActionResult Get(string nameHero)
         {
-            var heroi = new Heroi { Nome = nameHero };
-            
-                _context.Herois.Add(heroi);
-                // _contexto.Add(heroi);
-                _context.SaveChanges();
+            // var heroi = new Heroi { Nome = nameHero };
+
+            var heroi = _context.Herois.
+                         Where(h => h.Id == 3)
+                         .FirstOrDefault();
+            heroi.Nome = "Homem Aranha";
+            // _contexto.Add(heroi);
+            _context.SaveChanges();
             
             // retorna um status
             return Ok();
