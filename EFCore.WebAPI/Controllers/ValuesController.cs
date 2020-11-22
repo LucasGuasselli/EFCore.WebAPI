@@ -35,7 +35,7 @@ namespace EFCore.WebAPI.Controllers
                 return Ok(listHeroi);      
         }
 
-        // GET api/values/5
+        // GET api/Atualizar/nameHero
         [HttpGet("Atualizar/{nameHero}")]
         public ActionResult Get(string nameHero)
         {
@@ -48,6 +48,26 @@ namespace EFCore.WebAPI.Controllers
             // _contexto.Add(heroi);
             _context.SaveChanges();
             
+            // retorna um status
+            return Ok();
+        }
+
+        // GET api/values/5
+        [HttpGet("AddRange")]
+        public ActionResult GetAddRange()
+        {
+            _context.AddRange(
+                new Heroi { Nome = "Capitão América" },
+                new Heroi { Nome = "Doutor Estranho" },
+                new Heroi { Nome = "Pantera Negra" },
+                new Heroi { Nome = "Viúva Negra" },
+                new Heroi { Nome = "Hulk" },
+                new Heroi { Nome = "Gavião Arqueiro" },
+                new Heroi { Nome = "Capitã Marvel" }
+            );
+
+            _context.SaveChanges();
+
             // retorna um status
             return Ok();
         }
@@ -68,6 +88,11 @@ namespace EFCore.WebAPI.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var heroi = _context.Herois
+                            .Where(x => x.Id == id)
+                            .Single();
+            _context.Herois.Remove(heroi);
+            _context.SaveChanges();
         }
     }
 }
